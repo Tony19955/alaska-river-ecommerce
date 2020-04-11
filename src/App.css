@@ -1,6 +1,16 @@
 body {
   font-family: 'Open Sans Condensed';
-  padding: 20px 40px;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed';
 }
 
 a {
@@ -9,5 +19,7 @@ a {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }

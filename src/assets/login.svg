@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   width="25"
+   height="25"
+   version="1.1"
+   viewBox="0 0 5.4 5.4"
+   >
+   <g
+      fill="none"
+      stroke="#006680"
+      strokeDasharray="none"
+      strokeLinejoin="miter"
+      strokeMiterlimit="4"
+      strokeOpacity="1"
+      strokeWidth="0.3"
+      transform="translate(-37.592 -187.592)"
+   >
+      <ellipse
+         cx="40.241"
+         cy="189.036"
+         fillOpacity="1"
+         strokeDashoffset="0"
+         strokeLinecap="square"
+         paintOrder="normal"
+         rx="1.311"
+         ry="1.311"
+      ></ellipse>
+      <path
+         strokeLinecap="butt"
+         d="M37.725 192.751v-.418s-.025-.301.288-.57a2.66 2.66 0 01.711-.417s.605-.259 1.24-.3c0 0 .76-.083 1.681.259.921.341 1.04.75 1.04.75s.064.12.066.257v.44z"
+      ></path>
+   </g>
+</svg>

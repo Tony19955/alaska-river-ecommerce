@@ -1,0 +1,29 @@
+.footer-container { 
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background: #006680;
+
+  .footer-btn {
+    color: white;
+    font-size: .9rem;
+    font-weight: bold;
+    margin: .5rem 0;
+    padding: 1rem;
+    width: 11%;
+  }
+
+  .line {
+    width: 100%;
+    margin: auto;
+    border-bottom: .03rem solid white;
+  }
+
+  .copyright {
+    color: white;
+    font-size: .7rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+  }
+}

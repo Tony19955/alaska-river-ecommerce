@@ -7,10 +7,11 @@ import './App.css';
 
 import HomePage from './pages/homepage/homepage';
 import ShopPage from './pages/shop/shop';
-import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up';
 import CheckoutPage from './pages/checkout/checkout';
+import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up';
 
 import Header from './components/header/header';
+import Footer from './components/footer/footer';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
@@ -45,7 +46,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Header />
         <Switch>
           <Route exact path='/' component={HomePage} />
@@ -63,7 +64,8 @@ class App extends React.Component {
             }
           />
         </Switch>
-      </div>
+        <Footer />
+      </React.Fragment>
     );
   }
 }

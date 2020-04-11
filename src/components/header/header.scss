@@ -1,25 +1,85 @@
 .header {
-  height: 70px;
+  top: 0;
+  left: 0;
   width: 100%;
+  padding: .5rem;
+  position: fixed;
+  color: #006680;
+  background: white;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  align-items: center;
+  border-bottom: .1rem solid #006680;
+  z-index: 10;
+
+  .shop-btn-container {
+    text-align: left;
+    width: calc(100%/3);
+  }
+
+  .shop-btn {
+    color: #006680;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: .5rem;
+  }
 
   .logo-container {
-    height: 100%;
-    width: 70px;
-    padding: 25px;
+    text-align: center;
+    width: calc(100%/3);
+  }
+  
+  .big-logo {
+    display: none;
+  }
+
+  .small-logo {
+    height: 2.2rem;
+    width: auto;
   }
 
   .options {
-    width: 50%;
-    height: 100%;
+    width: calc(100%/3);
     display: flex;
     align-items: center;
     justify-content: flex-end;
 
     .option {
-      padding: 10px 15px;
+      margin: .5rem;
+      color: #006680;
+      cursor: pointer;
+    }
+
+    .login-btn,
+    .logout-btn,
+    .search-logo {
+      height: 20px;
+      width: auto;
     }
   }
+}
+
+/* RESPONSIVE DESIGN */
+
+@media only screen and (min-width: 992px) {
+  .header {
+    padding: .5rem 3rem;   
+    
+    .big-logo { 
+      font-family: 'Anton', sans-serif;
+      font-size: 2.2rem;
+      color: #006680;
+      display: block;
+    }
+
+    .small-logo {
+      display: none;
+    }
+
+    .options {
+      .option {
+        margin: .75rem;    
+      }   
+    }
+  }      
 }
