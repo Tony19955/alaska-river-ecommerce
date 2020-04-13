@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   width="20"
+   height="20"
+   version="1.1"
+   viewBox="0 0 5.292 5.292"
+   >
+   <defs>
+      <linearGradient
+         x1="46"
+         x2="46"
+         y1="12.75"
+         y2="23.049"
+         gradientTransform="matrix(.1323 0 0 .1323 78.26 148.296)"
+         gradientUnits="userSpaceOnUse"
+         spreadMethod="reflect"
+      >
+         <stop offset="0" stopColor="#6DC7FF"></stop>
+         <stop offset="1" stopColor="#E6ABFF"></stop>
+      </linearGradient>
+      <linearGradient
+         x1="32"
+         x2="32"
+         y1="18.167"
+         y2="45.679"
+         gradientTransform="matrix(.1323 0 0 .1323 78.26 148.296)"
+         gradientUnits="userSpaceOnUse"
+         spreadMethod="reflect"
+      >
+         <stop offset="0" stopColor="#6DC7FF"></stop>
+         <stop offset="1" stopColor="#E6ABFF"></stop>
+      </linearGradient>
+      <linearGradient
+         x1="32"
+         x2="32"
+         y1="6.667"
+         y2="57.872"
+         gradientTransform="matrix(.1323 0 0 .1323 78.26 148.296)"
+         gradientUnits="userSpaceOnUse"
+         spreadMethod="reflect"
+      >
+         <stop offset="0" stopColor="#1A6DFF"></stop>
+         <stop offset="1" stopColor="#C822FF"></stop>
+      </linearGradient>
+   </defs>
+   <g
+      fill="#fff"
+      strokeWidth="0.106"
+      transform="translate(-79.185 -150.545)"
+   >
+      <path d="M83.101 155.836h-2.54a1.377 1.377 0 01-1.376-1.376v-2.54c0-.758.617-1.375 1.376-1.375h2.54c.759 0 1.376.617 1.376 1.375v2.54c0 .76-.617 1.376-1.376 1.376zm-2.498-5.037c-.641 0-1.164.522-1.164 1.164v2.455c0 .642.523 1.164 1.164 1.164h2.456c.642 0 1.164-.522 1.164-1.164v-2.455c0-.642-.522-1.164-1.164-1.164z"></path>
+      <path d="M81.831 154.566a1.377 1.377 0 01-1.376-1.376c0-.758.617-1.375 1.376-1.375.759 0 1.376.617 1.376 1.375 0 .76-.617 1.376-1.376 1.376zm0-2.328a.954.954 0 000 1.905.954.954 0 000-1.905z"></path>
+      <circle cx="83.313" cy="151.709" r="0.318"></circle>
+   </g>
+</svg>

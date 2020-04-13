@@ -1,29 +1,149 @@
 .footer-container { 
   display: flex;
   text-align: center;
-  justify-content: space-between;
   flex-direction: column;
-  background: #006680;
+  justify-content: space-between;
+  background: black;
 
-  .footer-btn {
-    color: white;
-    font-size: .9rem;
-    font-weight: bold;
-    margin: .5rem 0;
-    padding: 1rem;
-    width: 11%;
+  .footer-sections-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .footer-section {
+      width: 100%;     
+      margin: 1rem 0;
+      color: #006680;
+      font-size: .9rem;
+      font-weight: bold; 
+      display: flex;
+      text-align: left;
+      flex-direction: column;
+      align-items: center;  
+
+      .footer-p {
+        width: 75%;
+        text-align: center;
+      }
+      
+      &:first-child {
+        margin-top: 4rem;
+      } 
+    }
+
+    .footer-section-title {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+      font-weight: bold;
+      letter-spacing: .1rem;
+      text-transform: uppercase;
+    }
+
+    .footer-link {
+      font-size: 1rem;
+      color: #006680ad; 
+      line-height: 1.5rem;
+      transition: all .2s linear;
+
+      &:hover {
+        color: #006680; 
+      }
+    }
+
+    .newsletter-form {
+      display: flex; 
+      margin-top: 1rem;
+
+      .newsletter-input {
+        outline: none;
+        color: white;
+        background: none;
+        height: 2.5rem;
+        padding: 0 .5rem;
+        border: .1rem solid #006680ad;
+      }
+
+      .newsletter-btn {
+        font-weight: bold;
+        font-size: .9rem;
+        color: grey;
+        letter-spacing: .1rem;
+        padding: 0 .5rem;
+        border: .1rem solid #006680ad;
+        border-left: none;
+        transition: all .2s linear;
+
+        &:hover {          
+          color: white;       
+        }
+      }
+    }
+    
+    .social-section {
+      width: 100%;
+      margin: 3rem 4rem 4rem 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+
+      .social-icon {
+        width: auto;
+        height: 1.5rem;
+        margin: 0 1rem 0 1rem;        
+        cursor: pointer;
+      }
+    }
   }
-
+  
   .line {
     width: 100%;
     margin: auto;
-    border-bottom: .03rem solid white;
+    border: none;
+    border-bottom: .075rem solid #006680;
   }
 
   .copyright {
-    color: white;
+    margin: 2rem 0;
+    color: #006680;
     font-size: .7rem;
-    margin: 1rem 0;
+    font-weight: bold;
     text-transform: uppercase;
+  }
+}
+
+/* RESPONSIVE DESIGN */
+
+@media only screen and (min-width: 992px) {
+  .footer-container {
+
+    .footer-sections-container {      
+      flex-direction: row;
+
+      .footer-section {
+        width: calc(80%/3); 
+        margin: 4rem 0;
+        align-items: flex-start;
+
+        .footer-p {
+          text-align: left;
+          width: 100%;
+        }
+
+        &:first-child {
+          margin-top: 4rem;
+          margin-left: 4rem;
+        }  
+      }
+
+      .social-section {
+        width: 25%;
+        margin: 0 4rem 4rem 0;       
+        justify-content: flex-end;
+  
+        .social-icon {        
+          margin: 0 .5rem;        
+        }
+      }    
+    }
   }
 }

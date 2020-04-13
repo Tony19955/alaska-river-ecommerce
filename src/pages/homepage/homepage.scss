@@ -1,6 +1,55 @@
 .homepage {
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin-top: 5rem;
+  flex-direction: column;
+
+  .homepage-banner {
+    width: 100%;    
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../../assets/alaska_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .homepage-collection-title {
+    text-align: center;
+    color: white;
+    margin-top: 22rem;
+  }
+
+  .homepage-collection-title p {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .homepage-shop-btn { 
+    margin-top: 3rem;
+    padding: .5rem 1.5rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    border: .1rem solid black;
+    background: rgba(255, 255, 255, 0.5);
+    transition: all .2s linear;
+
+    &:hover {
+      background: white;    
+    }
+  }
+  
+  .homepage-categories {
+    width: 100%;
+    padding: 1rem 0;
+    color: #006680;
+    font-size: 1.5rem;
+    text-align: center;  
+    border-top: .1rem solid #006680;
+    border-bottom: .1rem solid #006680;
+  }
 }

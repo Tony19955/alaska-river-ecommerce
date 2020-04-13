@@ -60,15 +60,15 @@ const SHOP_DATA = {
       }
     ]
   },
-  sneakers: {
+  boots: {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Boots',
+    routeName: 'boots',
     items: [
       {
         id: 10,
         name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png', 
         price: 220
       },
       {

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   width="15.559"
+   height="20"
+   version="1.1"
+   viewBox="0 0 4.117 5.292"
+   >
+   <defs>
+      <linearGradient
+         x1="46"
+         x2="46"
+         y1="12.75"
+         y2="23.049"
+         gradientTransform="matrix(.1323 0 0 .1323 78.26 148.296)"
+         gradientUnits="userSpaceOnUse"
+         spreadMethod="reflect"
+      >
+         <stop offset="0" stopColor="#6DC7FF"></stop>
+         <stop offset="1" stopColor="#E6ABFF"></stop>
+      </linearGradient>
+      <linearGradient
+         x1="32"
+         x2="32"
+         y1="18.167"
+         y2="45.679"
+         gradientTransform="matrix(.1323 0 0 .1323 78.26 148.296)"
+         gradientUnits="userSpaceOnUse"
+         spreadMethod="reflect"
+      >
+         <stop offset="0" stopColor="#6DC7FF"></stop>
+         <stop offset="1" stopColor="#E6ABFF"></stop>
+      </linearGradient>
+      <linearGradient
+         x1="32"
+         x2="32"
+         y1="6.667"
+         y2="57.872"
+         gradientTransform="matrix(.1323 0 0 .1323 78.26 148.296)"
+         gradientUnits="userSpaceOnUse"
+         spreadMethod="reflect"
+      >
+         <stop offset="0" stopColor="#1A6DFF"></stop>
+         <stop offset="1" stopColor="#C822FF"></stop>
+      </linearGradient>
+   </defs>
+   <g transform="translate(-80.043 -150.62)">
+      <g
+         fill="#fff"
+         stroke="none"
+         transform="matrix(.01088 0 0 .01088 79.456 150.62)"
+      >
+         <g fill="#fff" stroke="none">
+         <g fill="#fff" stroke="none">
+            <path
+               fill="#fff"
+               stroke="none"
+               d="M430.149 135.248C416.865 39.125 321.076-9.818 218.873 1.642 138.071 10.701 57.512 76.03 54.168 169.447c-2.037 57.029 14.136 99.801 68.399 111.84 23.499-41.586-7.569-50.676-12.433-80.802C90.222 77.367 252.16-6.718 336.975 79.313c58.732 59.583 20.033 242.77-74.57 223.71-90.621-18.179 44.383-164.005-27.937-192.611-58.793-23.286-90.013 71.135-62.137 118.072-16.355 80.711-51.557 156.709-37.3 257.909 46.207-33.561 61.802-97.734 74.57-164.704 23.225 14.136 35.659 28.758 65.268 31.038 109.195 8.48 170.267-109.014 155.28-217.479z"
+            ></path>
+         </g>
+         </g>
+      </g>
+   </g>
+</svg>
